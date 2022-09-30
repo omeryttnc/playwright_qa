@@ -11,7 +11,7 @@ test('homepage has Playwright in title and get started link linking to the intro
     const getStarted = page.locator('text=Get Started');
 
     // Expect an attribute "to be strictly equal" to the value.
-    await expect(getStarted).toHaveAttribute('href', '/docs/intro');
+    await expect(getStarted).toHaveAttribute('href', '/dos/intro');
 
     // Click the get started link.
     await getStarted.click();
